@@ -44,7 +44,7 @@ function App() {
       setAccount(accounts[0]);
       setContract(
         new ethers.Contract(
-          "0xB3dAc8333c543AA0ccBd293805f9625a39c9A05E",
+          "0x0cc3D71C19d67af8f1fcC12588192de3f9Fb6eFF",
           Manager.abi,
           newSigner
         )
